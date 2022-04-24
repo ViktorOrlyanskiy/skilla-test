@@ -1,0 +1,81 @@
+.list-calls{
+    
+    &__menu{
+        max-width: 1920px;
+        width: 100%;
+        
+        position: fixed;
+        top: 64px;
+        left: 0;
+        
+        padding-left: 240px;
+        padding-right: 20.5px;
+
+        background-color: #E5E5E5;
+    }
+    
+    
+
+    &__container{
+        max-width: 1680px;
+        min-width: 14y00px; // подобрать
+        width: 100%;
+        
+        padding: 0 6.25%;
+    }
+
+}
+
+.menu-error{
+    max-width: 1440px;
+    display: flex;
+    justify-content: flex-end;
+   
+    padding: 20px 0;
+   
+    color: #5E7793;
+}
+
+.menu-calls{
+    max-width: 1440px;
+   
+    display: flex;
+    justify-content: flex-start;
+   
+    padding: 24px 40px 20px 40px;
+
+    background-color: #ffffff;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid #EAF0FA;
+
+    &__title{
+        color: #899CB1;
+    }
+}
+
+
+
+.mc-type{
+    flex: 0 0 3.62%;
+    flex: 0 0 9%;
+}
+.mc-time{
+    flex: 0 0 5.43%;
+}
+.mc-employee{
+    flex: 0 0 10.87%;
+}
+.mc-call{
+    flex: 0 0 23.55%;
+}
+
+.mc-source{
+    flex: 0 0 14.49%;
+}
+.mc-grade{
+    flex: 0 0 31.61%;
+}
+.mc-duration{
+    flex: 0 0 10.5%;
+    text-align: end;
+}

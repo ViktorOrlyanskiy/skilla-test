@@ -1,0 +1,49 @@
+/* ========== Обнуляющие стили ========== */
+@import-normalize;
+@import "nullstyle";
+
+
+/* ========== Подключение шрифтов ========== */
+@font-face { 
+    font-family: "SFProDisplay Regular";
+    src: url("../fonts/SFProDisplay-Regular.ttf") format("truetype"); /* все современные браузеры */
+}
+@font-face { 
+    font-family: "SFProDisplay Medium";
+    src: url("../fonts/SFProDisplay-Medium.ttf") format("truetype"); /* все современные браузеры */
+}
+@font-face { 
+    font-family: "SFProDisplay Semibold";
+    src: url("../fonts/SFProDisplay-Semibold.ttf") format("truetype"); /* все современные браузеры */
+}
+
+
+/* ========== Глобальные переменные ========== */
+@import "variables";
+
+/* ========== Глобальные стили ========== */
+@import "global";
+
+
+
+.wrapper{
+    position: absolute; // задаем абсолютное позиционирование для блока page
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex; // превращает в флекс-контейнер чтобы все внутренний блоки выстраивадись в 1 колонку
+    flex-direction: column;
+    overflow-x: hidden;
+
+    background: #E5E5E5;
+}
+.app{
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: "SFProDisplay Regular";
+    font-size: 14px;
+    line-height: 1;
+}
