@@ -9,7 +9,7 @@
         left: 0;
         
         padding-left: 240px;
-        padding-right: 20.5px;
+        padding-right: 1.25%;
 
         background-color: #E5E5E5;
     }
@@ -18,10 +18,11 @@
 
     &__container{
         max-width: 1680px;
-        min-width: 14y00px; // подобрать
+        min-width: 1300px; // подобрать
         width: 100%;
         
-        padding: 0 6.25%;
+        // padding: 0 6.25%;
+        padding: 0 6.5% 0 6.25%;
     }
 
 }

@@ -11,34 +11,5 @@ export const sortCalls = (array, sort) => {
             return array.filter(item => item.in_out === 0)
         }
 
-
-
-
-
-        // if (calls !== undefined) {
-        //     return calls.filter(call => {
-        //         if (
-        //             call.in_out === filter.callDuration
-        //             && filter.callDuration === 1) {
-        //             return true
-        //         }
-
-        //         else if (
-        //             filter.callDuration === 0
-        //             && filter.callStatus === 'Дозвонился'
-        //             && call.in_out === filter.callDuration
-        //             && call.status === filter.callStatus) {
-        //             return true
-        //         }
-
-        //         else if (
-        //             filter.callDuration === 0
-        //             && filter.callStatus === 'Не дозвонился'
-        //             && call.in_out === filter.callDuration
-        //             && call.status === filter.callStatus) {
-        //             return true
-        //         }
-        //     })
-        // }
     }
 }
