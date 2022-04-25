@@ -1,0 +1,68 @@
+.header{
+    width: 100%;
+    height: 64px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+    padding-left: 240px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px #E9EDF3;
+
+    .container{
+        max-width: 1680px;
+            min-width: 1300px; // подобрать
+            width: 100%;
+            
+            // padding: 0 6.25%;
+            padding: 0 7.5% 0 6.25%;  
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    }
+
+    &__date{
+        font-size: 15px;
+        color: #899CB1; 
+    }
+
+    &__people{
+        font-size: 15px;
+        color: #899CB1;
+    }
+
+}
+
+.people{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+    &__search{
+        width: 16px;
+        height: 16px;
+        margin-right: 56px;
+        background: url('../../../image/Header/search.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__title{
+        margin-right: 40px;
+    }
+
+    &__icon{
+        width: 40px;
+        height: 40px;
+        background: url('../../../image/Header/avatar.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,9 +1,16 @@
 import React from "react";
-import '../../styles/components/Sidebar.scss';
+import Logo from './Logo';
+import '../../styles/components/sidebar/Sidebar.scss';
+import MainMenu from "./MainMenu";
+import SidebarButtons from './SidebarButtons'
 
 function Sidebar() {
     return (
-        <div className="sidebar"></div>
+        <div className="sidebar">
+            <Logo />
+            <MainMenu />
+            <SidebarButtons />
+        </div>
     );
 }
 

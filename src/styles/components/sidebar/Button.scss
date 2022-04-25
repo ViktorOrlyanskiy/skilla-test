@@ -1,0 +1,48 @@
+.button{
+    width: 200px;
+    height: 44px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 14px 20px;
+    margin-bottom: 25px;
+
+    background: #005FF8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &__title{
+        flex: 1 0 60%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    &__icon{
+
+        width: 25px;
+        height: 25px;
+
+        margin-left: 17px;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.btn-plus{
+    background: url('../../../image/Sidebar/btn-plus.png');
+}
+.btn-point{
+    background: url('../../../image/Sidebar/btn-point.png');
+    margin-left: 0px;
+}
+
+.button:hover{
+    background: #0000F4;
+}

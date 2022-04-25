@@ -13,20 +13,13 @@ function ListCalls({ sort }) {
 
     // имитирует ответ сервера
     const renderCalls = () => {
-        // setIsLoading(true)
         setTimeout(() => {
             if (calls === undefined) {
                 setCalls(getCallsArray())
             }
             setIsLoading(false)
-        }, 2000)
+        }, 1500)
     }
-
-
-    // const renderCalls = () => {
-    //     if (calls === undefined) setCalls(getCallsArray())
-    // }
-    // renderCalls()
 
     useEffect(() => {
         setIsLoading(true)
@@ -34,7 +27,6 @@ function ListCalls({ sort }) {
         renderCalls() // имитирует ответ сервера
     }, [sort])
 
-    console.log(sortCalls(calls, sortMethod))
 
     return (
 
